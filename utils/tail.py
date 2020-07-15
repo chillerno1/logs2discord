@@ -73,7 +73,6 @@ async def tail(
 
     # seek to the end of the file for tailing
     # given the above operations we should already be there.
-    print("got to end")
     fp.seek(0, os.SEEK_END)
 
     try:
