@@ -27,7 +27,7 @@ Logged in as logbot, user_id 73280464XXXXXXXX
 ------
 ```
 
-## How do I get a channel ids?
+## How do I get a channel_id?
 
 Run in terminal:
 ```shell script
