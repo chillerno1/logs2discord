@@ -19,3 +19,28 @@ Run in terminal:
 ```shell script
 python3 logs2discord.py -t <token> -c <channel_id> -f <file_path> -W 15
 ```
+
+Example:
+```shell script
+root@scriptbox: ~/logs2discord$ logs2discord.py -t 'XXXXXXXXXXXXX.XXXX.XXXXXXXXXXXXX' -c 732804641238809 -f '/var/log/syslog' -W 15
+Logged in as logbot, user_id 73280464XXXXXXXX
+------
+```
+
+## How do I get a channel ids?
+
+Run in terminal:
+```shell script
+python3 channelinfo.py -t <token>
+```
+
+Example:
+```shell script
+root@scriptbox: ~/logs2discord$ python3 channelinfo.py -t 'XXXXXXXXXX.XXXXXX.XXXXXXXXXXX'
+Logged in as logbot, user_id 73280464XXXXXXXX
+------
+Listing available channels:
+------
+name:general, id: 732805747XXXXXXXX, type:text
+name:logs, id: 7328416557XXXXXXXX, type:text
+```
